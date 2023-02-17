@@ -1,16 +1,14 @@
-#include <stdio.h>
-#include <ctype.h>
+#include<stdio.h>
 /**
- *main - this is the main function
- *Return: return 0
+ * main - this is the main function
+ * Return: this returns a 0 if success
  */
 int main(void)
 {
-char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-int i = 0;
-for (i = 0; i < 26 ; i++)
+int ch;
+for (ch = 'z'; ch >= 'a'; ch--)
 {
-putchar(toupper(alphabet[i]));
+putchar(ch);
 }
 putchar('\n');
 return (0);
