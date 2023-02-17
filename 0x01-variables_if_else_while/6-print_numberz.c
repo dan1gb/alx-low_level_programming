@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main function denotes start
- * Return: returns a zero
+ * main - this is the main function
+ * Return: returns a zero if the program is successful
 */
 int main(void)
 {
