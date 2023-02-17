@@ -5,12 +5,14 @@
  */
 int main(void)
 {
-char alphabet[26] = "abcdfghijklmnoprstuvwxyz";
-int i = 0;
-for (i = 0; i < 26 ; i++)
+int ch;
+for (ch = 'a'; ch <= 'z' ; ch++)
 {
-putchar(alphabet[i]);
+if (ch != 'a' && ch != 'q')
+{
+putchar(ch);
 }
-putchar(' ');
+}
+putchar('\n');
 return (0);
 }
