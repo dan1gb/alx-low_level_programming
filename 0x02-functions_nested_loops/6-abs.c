@@ -3,6 +3,7 @@
  * _abs - function to find absolute numbers
  * @num - argument accepted
  * Return: returns the number in absolute form
+ * @num: argument accepted
 */
 int _abs(int num)
 {
