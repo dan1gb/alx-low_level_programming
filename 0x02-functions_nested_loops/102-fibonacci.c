@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * @void: parameter accepted
- * return: returns 0 if success
+ * Return: returns 0 if success
  */
 int main(void)
 {
