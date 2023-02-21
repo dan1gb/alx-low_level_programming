@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * print_sign - function to print the sign of a number
+ * @n: carrier variable
  * Return: returns 1 if greater than 0,0 if zero, -1 if less than zero
- * @n - argument accepted by function
  */
 int print_sign(int n)
 {
