@@ -1,10 +1,22 @@
 #include "main.h"
 
-void times_table(void)
+void times_table()
 {
-	int l0,l1, l2,l3,l4,l5,l6,l7,l8,l9;
+int row, col;
 
-	for (l0 = 0; l0 < 1; l0++;)
-	{
-		_putchar
-
+for (row = 0; row < 10; row++)
+{
+for (col = 0; col < 10; col++)
+{
+if(col != 9)
+{
+printf("%3d, ", row*col);
+}
+else
+{
+printf("%3d$",row*col);
+}
+}
+printf("\n");
+}
+}
