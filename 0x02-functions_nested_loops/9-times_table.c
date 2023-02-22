@@ -1,6 +1,11 @@
+#include <stdio.h>
 #include "main.h"
-
-void times_table()
+/**
+ * times_table - function to calculate multiples
+ * @void: returns void
+ * Return: return 0 if successful
+ */
+void times_table(void)
 {
 int row, col;
 
@@ -8,13 +13,13 @@ for (row = 0; row < 10; row++)
 {
 for (col = 0; col < 10; col++)
 {
-if(col != 9)
+if (col != 9)
 {
-printf("%3d, ", row*col);
+printf("%3d, ", row * col);
 }
 else
 {
-printf("%3d$",row*col);
+printf("%3d$", row * col);
 }
 }
 printf("\n");
