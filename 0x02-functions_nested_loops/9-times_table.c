@@ -15,7 +15,7 @@ for (col = 0; col < 10; col++)
 {
 if (col != 9)
 {
-printf("%2d, ", row * col);
+printf("%2d,", row * col);
 }
 else
 {
