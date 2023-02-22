@@ -15,11 +15,11 @@ for (col = 0; col < 10; col++)
 {
 if (col != 9)
 {
-printf("%4d, ", row * col);
+printf("%2d, ", row * col);
 }
 else
 {
-printf("%4d$", row * col);
+printf("%2d", row * col);
 }
 }
 printf("\n");
