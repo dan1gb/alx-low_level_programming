@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Fizz Buzz code
+ * main - entry point
  *
- * Return: void
+ * Return: always 0
  */
 
 int main(void)
@@ -37,4 +37,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-} 
+}
