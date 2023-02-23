@@ -1,9 +1,7 @@
 #include "main.h"
 #include <unistd.h>
-
 /**
- * print_most_numbers - prints numbers except 2 & 4
- * @void - no return value
+ * print_most_numbers - prints numbers except two and four
  * Return: no return value
  */
 void print_most_numbers(void)
@@ -18,4 +16,4 @@ void print_most_numbers(void)
 		}
 	}
 	_putchar('\n');
-}	
+}
