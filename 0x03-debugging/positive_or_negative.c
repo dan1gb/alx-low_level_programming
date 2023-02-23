@@ -9,19 +9,12 @@
 */
 void positive_or_negative(int i)
 {
-/*srand(time(0));
-i = rand() - RAND_MAX / 2;*/
 if (i == 0)
 {
 printf("%d is zero\n", i);
 }
-/*else if (i < 0)
+else if (i == 16)
 {
-printf("%d is negative\n", i);
+	printf("%d\n", i);
 }
-else if (i > 0)
-{
-printf("%d is positive\n", i);
-}
-return (0);*/
 }
