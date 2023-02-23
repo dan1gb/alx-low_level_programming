@@ -35,6 +35,10 @@ else
 {
 printf("%d ", num1);
 }
+if (x != 100)
+	{
+	printf(" ");
+	}
 }
 printf("\n");
 return (0);
