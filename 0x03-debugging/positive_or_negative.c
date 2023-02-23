@@ -5,6 +5,8 @@
 /* more headers goes there */
 
 /**
+ * positive_or_negative(int i) - function to check sign of integer
+ * @int i: parameter accepted
 * Return: returns 0 if successful
 */
 void positive_or_negative(int i)
