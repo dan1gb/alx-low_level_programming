@@ -18,4 +18,6 @@ for (col = 0; col < size; col++)
 }
 _putchar('\n');
 }}
+else if (size <= 0)
+_putchar('\n');
 }
