@@ -35,7 +35,7 @@ else
 {
 printf("%d ", num1);
 }
-if (x != 100)
+if (num1 != 100)
 	{
 	printf(" ");
 	}
