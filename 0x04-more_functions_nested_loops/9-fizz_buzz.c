@@ -6,39 +6,19 @@
  */
 int main(void)
 {
-fizz_buzz(100);
-return (0);
-}
-/**
- * * fizz_buzz - function to print fizz if divisible by 3,
- * buzz if divisible by 5 and fizzbuzz if %3 and % 5 ==0
- * @num1: variable parameter argument
- * Return: return 0 always
- */
-int fizz_buzz(int num1)
-{
+	int num1;
 for (num1 = 1; num1 <= 100; num1++)
 {
-if (num1 % 3 == 0)
-{
-printf("Fizz ");
-}
-if (num1 % 5 == 0)
-{
-printf("Buzz ");
-}
-if (num1 % 3 == 0 && num1 % 5 == 0)
-{
-printf("FizzBuzz ");
-}
+if ((num1 % 3 == 0) && (num1 % 5 == 0))
+printf("FizzBuzz");
+else if (num1 % 3 == 0)
+printf("Fizz");
+else if (num1 % 5 == 0)
+printf("Buzz");
 else
-{
 printf("%d ", num1);
-}
 if (num1 != 100)
-	{
-	printf(" ");
-	}
+printf(" ");
 }
 printf("\n");
 return (0);
