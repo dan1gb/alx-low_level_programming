@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * puts_half - print half string
  * @str: pointer argument
  * return: always 0
