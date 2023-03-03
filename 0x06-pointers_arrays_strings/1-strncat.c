@@ -8,13 +8,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int ldest = 0, lsrc = 0, i;
+	int ldest = 0, i = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (dest[ldest] != '\0')
+	{
 		ldest++;
-	for (i = 0; src[i] != '\0'; i++)
-		lsrc++;
-	for (i = 0; i < n; i++)
-		dest[ldest + 1] = src[i];
+	}
+	for (i = 0; i < n && src[i] != '\0'; i++)
+	{
+	dest[ldest + 1] = src[i];
+	}
+
+	/* Add null terminator to end of dest */
+	dest[ldest +1] = '\0';
 	return (dest);
 }
