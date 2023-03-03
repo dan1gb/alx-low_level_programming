@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * @strncat - function to concatenate strings
+ * _strncat - function to concatenate strings
  * @dest: destination character
  * @src: source character
- * @n number of array fields
+ * @n: number of array fields
  * Return: returns destination string
  */
 char *_strncat(char *dest, char *src, int n)
