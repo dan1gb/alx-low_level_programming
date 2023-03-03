@@ -11,9 +11,9 @@ int ldest, lsrc, index;
 
 for (index = 0; dest[index] != '\0'; index++)
 	ldest++;
-for (index = 0; lsrc[index] != '\0'; index++)
+for (index = 0; src[index] != '\0'; index++)
 	lsrc++;
-for (index = 0; index <= lsrc; i++)
+for (index = 0; index <= lsrc; index++)
 	dest[ldest + index] = src[index];
 return (dest);
 }
