@@ -3,7 +3,7 @@
  * _strspn - gets length of prefix substring
  * @s: arg1
  * @accept: arg2
- * Return: bytes 
+ * Return: bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -12,9 +12,9 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s)
 	{
-		for(index = 0; accept[index]; index++)
+		for (index = 0; accept[index]; index++)
 		{
-			if(*s == accept[index])
+			if (*s == accept[index])
 			{
 				bytes++;
 				break;
