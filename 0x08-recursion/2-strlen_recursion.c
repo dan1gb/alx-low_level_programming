@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-_strlen_recursion - function to count
+* _strlen_recursion - function to count
 * @s: string
 * Return: return value always 0
 */
