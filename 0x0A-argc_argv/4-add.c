@@ -19,11 +19,7 @@ if (!isdigit(argv[i][j]))
 printf("Error\n");
 return (1);
 }}
-int num = atoi(argv[i]);
-if (num > 0)
-{
-sum = sum + num;
-}
+sum = sum + atoi(argv[i]);
 }
 printf("%d\n", sum);
 return (0);
